@@ -50,9 +50,7 @@
         <a class="navbar-brand" href="#">PhotoApp</a>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Link1", "/path1"  %></li>
-            <li><%= link_to "Link2", "/path2"  %></li>
-            <li><%= link_to "Link3", "/path3"  %></li>
+            <li><%= link_to "Images", images_path  %></li>
           </ul>
 
           <ul class="nav navbar-right col-md-4">
@@ -69,7 +67,7 @@
                                         class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %></li>
             <% else %>
             <li class="col-md-4 pull-right">
-              <%= link_to('Sign In', new_user_session_path, class: 'btn btn-primary', title: 'Sign In') %>
+              <%= link_to('Sign In', new_user_session_path, class: 'btn btn-primary btn-sm', title: 'Sign In') %>
             </li>
 
             <% end %>

@@ -15,3 +15,9 @@
 /log/*
 !/log/.keep
 /tmp
+
+# I don't want to show my secrets
+/config/secrets.yml
+.env
+.zshrc
+.profile

@@ -10,7 +10,9 @@ gem 'devise-bootstrap-views'
 gem 'stripe'
 
 gem 'carrierwave'
+gem 'carrierwave-aws', '~> 1.0', '>= 1.0.2'
 gem 'mini_magick'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.2'
 gem 'fog'
 
 

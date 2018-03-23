@@ -25,7 +25,9 @@
   <div class="form-group">
     <%= f.label :picture, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
-      <%= f.file_field :picture, accept: 'image/jpeg,image/gif,image/png' %>
+      <label class="btn btn-primary">
+        Upload an image <%= f.file_field :picture, accept: 'image/jpeg,image/gif,image/png', style: 'display: none;' %>
+      <label
     </div>
     <%=f.error_span(:picture) %>
   </div>
